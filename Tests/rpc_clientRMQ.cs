@@ -41,21 +41,46 @@ public class FibonacciRpcClient
     }
 
     public string Call(int message)
+{
+    var messageBytes = Encoding.UTF8.GetBytes(message.ToString());
+    channel.BasicPublish(
+        exchange: "",
+        routingKey: "rpc_queue",
+        basicProperties: props,
+        body: messageBytes);
+
+    channel.BasicConsume(
+        consumer: consumer,
+        queue: replyQueueName,
+        autoAck: true);
+
+    int flagCount = 0;
+    var lastCall = DateTime.Now;
+
+    while (true)
     {
-        var messageBytes = Encoding.UTF8.GetBytes(message.ToString());
-        channel.BasicPublish(
-            exchange: "",
-            routingKey: "rpc_queue",
-            basicProperties: props,
-            body: messageBytes);
+        if (respQueue.TryTake(out string response, TimeSpan.FromSeconds(3)))
+        {
+            return response!;
+        }
+        else
+        {
+            if ((DateTime.Now - lastCall).TotalSeconds > 3)
+            {
+                flagCount++;
+                Console.WriteLine($"Flag(s) raised: {flagCount}");
+                lastCall = DateTime.Now;
 
-        channel.BasicConsume(
-            consumer: consumer,
-            queue: replyQueueName,
-            autoAck: true);
-
-        return respQueue.Take(); 
+                if (flagCount == 3)
+                {
+                    Console.WriteLine("[x] Vehicle is missing [x]");
+                    return "Vehicle is missing";
+                }
+            }
+        }
     }
+}
+
 
     public void Close()
     {
