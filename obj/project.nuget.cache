@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "snYySiyA8uBIcmGT1Xv3nGVzmfNjM4lxuhHE9rd9QSc5Arsjwku6g7l+bIzNvH2ZyxU75x7XJTyusaefiUlWRQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nguye\\OneDrive - Cal Poly Pomona\\projects\\ngcp\\integration_library\\gcs-integration-library\\gcs-integration-library.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nguye\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",
+    "C:\\Users\\nguye\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\nguye\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,17 @@
+C:\Users\nguye\OneDrive - Cal Poly Pomona\projects\ngcp\integration_library\gcs-integration-library\obj\Debug\net7.0\gcs-integration-library.csproj.AssemblyReference.cache
+C:\Users\nguye\OneDrive - Cal Poly Pomona\projects\ngcp\integration_library\gcs-integration-library\obj\Debug\net7.0\gcs-integration-library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nguye\OneDrive - Cal Poly Pomona\projects\ngcp\integration_library\gcs-integration-library\obj\Debug\net7.0\gcs-integration-library.AssemblyInfoInputs.cache
+C:\Users\nguye\OneDrive - Cal Poly Pomona\projects\ngcp\integration_library\gcs-integration-library\obj\Debug\net7.0\gcs-integration-library.AssemblyInfo.cs
+C:\Users\nguye\OneDrive - Cal Poly Pomona\projects\ngcp\integration_library\gcs-integration-library\obj\Debug\net7.0\gcs-integration-library.csproj.CoreCompileInputs.cache
+C:\Users\nguye\OneDrive - Cal Poly Pomona\projects\ngcp\integration_library\gcs-integration-library\bin\Debug\net7.0\gcs-integration-library.exe
+C:\Users\nguye\OneDrive - Cal Poly Pomona\projects\ngcp\integration_library\gcs-integration-library\bin\Debug\net7.0\gcs-integration-library.deps.json
+C:\Users\nguye\OneDrive - Cal Poly Pomona\projects\ngcp\integration_library\gcs-integration-library\bin\Debug\net7.0\gcs-integration-library.runtimeconfig.json
+C:\Users\nguye\OneDrive - Cal Poly Pomona\projects\ngcp\integration_library\gcs-integration-library\bin\Debug\net7.0\gcs-integration-library.dll
+C:\Users\nguye\OneDrive - Cal Poly Pomona\projects\ngcp\integration_library\gcs-integration-library\bin\Debug\net7.0\gcs-integration-library.pdb
+C:\Users\nguye\OneDrive - Cal Poly Pomona\projects\ngcp\integration_library\gcs-integration-library\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\nguye\OneDrive - Cal Poly Pomona\projects\ngcp\integration_library\gcs-integration-library\obj\Debug\net7.0\gcs-integration-library.csproj.CopyComplete
+C:\Users\nguye\OneDrive - Cal Poly Pomona\projects\ngcp\integration_library\gcs-integration-library\obj\Debug\net7.0\gcs-integration-library.dll
+C:\Users\nguye\OneDrive - Cal Poly Pomona\projects\ngcp\integration_library\gcs-integration-library\obj\Debug\net7.0\refint\gcs-integration-library.dll
+C:\Users\nguye\OneDrive - Cal Poly Pomona\projects\ngcp\integration_library\gcs-integration-library\obj\Debug\net7.0\gcs-integration-library.pdb
+C:\Users\nguye\OneDrive - Cal Poly Pomona\projects\ngcp\integration_library\gcs-integration-library\obj\Debug\net7.0\gcs-integration-library.genruntimeconfig.cache
+C:\Users\nguye\OneDrive - Cal Poly Pomona\projects\ngcp\integration_library\gcs-integration-library\obj\Debug\net7.0\ref\gcs-integration-library.dll
